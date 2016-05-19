@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('scientists');
+  this.route('view-persion', {path: 'scientists/:person'});
+  this.route('orders');
+  this.route('order', {path: "orders/:orderid"});
 });
 
 export default Router;

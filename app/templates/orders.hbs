@@ -1,0 +1,6 @@
+
+{{#each model as |eachorder|}}
+	{{#link-to "order" eachorder}}
+		Order {{eachorder.id}} for {{eachorder.name}}<br>
+	{{/link-to}}
+{{/each}}

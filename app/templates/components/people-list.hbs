@@ -2,6 +2,8 @@
 
 <ul>
 	{{#each peoples as |person|}}
-		<li>{{person}}</li>
+		{{#link-to "view-persion" person}}
+			<li>ID: {{person.id}} - Name: {{person.name}}</li>
+		{{/link-to}}
 	{{/each}}
 </ul>
