@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('view-persion', {path: 'scientists/:person'});
   this.route('orders');
   this.route('order', {path: "orders/:orderid"});
+  this.route('about');
+  this.route('contact');
 });
 
 export default Router;
