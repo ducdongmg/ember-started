@@ -7,10 +7,11 @@ A short introduction of this app could easily go here.
 
 You will need the following things properly installed on your computer.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
+* [Git](http://git-scm.com/) (#git --version)
+* [Node.js](http://nodejs.org/) (with NPM) (#node -v) (#npm -v)
+* [Bower](http://bower.io/) (#npm install -g bower)
+* [Ember CLI](http://ember-cli.com/) (#npm install -g ember-cli)
+* [Ember CLI Config for windows](https://ember-cli.com/user-guide/#windows)
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
